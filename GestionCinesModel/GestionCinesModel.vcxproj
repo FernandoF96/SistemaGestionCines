@@ -111,6 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Butaca.h" />
     <ClInclude Include="Funcion.h" />
     <ClInclude Include="Local.h" />
     <ClInclude Include="Usuario.h" />
