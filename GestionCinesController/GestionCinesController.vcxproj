@@ -115,6 +115,12 @@
       <Project>{4cd8f586-875a-49b2-a1e1-fd3f88680aec}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogeoController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogeoController.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
