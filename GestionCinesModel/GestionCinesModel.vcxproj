@@ -42,7 +42,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CLRSupport>true</CLRSupport>
@@ -112,11 +112,36 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Butaca.h" />
+    <ClInclude Include="Cartelera.h" />
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="DetalleSnack.h" />
+    <ClInclude Include="DetalleTicket.h" />
+    <ClInclude Include="Formato.h" />
     <ClInclude Include="Funcion.h" />
     <ClInclude Include="Local.h" />
+    <ClInclude Include="Pelicula.h" />
+    <ClInclude Include="Sala.h" />
+    <ClInclude Include="Snack.h" />
+    <ClInclude Include="Ticket.h" />
+    <ClInclude Include="TipoDeEntrada.h" />
+    <ClInclude Include="Trabajador.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Butaca.cpp" />
+    <ClCompile Include="Cartelera.cpp" />
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="DetalleSnack.cpp" />
+    <ClCompile Include="DetalleTicket.cpp" />
+    <ClCompile Include="Formato.cpp" />
+    <ClCompile Include="Funcion.cpp" />
+    <ClCompile Include="Local.cpp" />
+    <ClCompile Include="Pelicula.cpp" />
+    <ClCompile Include="Sala.cpp" />
+    <ClCompile Include="Snack.cpp" />
+    <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="TipoDeEntrada.cpp" />
+    <ClCompile Include="Trabajador.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
